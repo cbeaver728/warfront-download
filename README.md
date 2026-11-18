@@ -16,6 +16,8 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
+**November 17 update:** [Playtest fixes and aircraft choices](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-17-playtest-fixes). Menus and deployment fit smaller windows, naval objectives are clearer, and you can choose a reserve aircraft before the first deployment. Windows and Mac downloads are updated.
+
 ## Install on Windows
 
 1. Download the zip, right-click it and choose **Extract All**.
