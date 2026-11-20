@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 17 update:** [Playtest fixes and aircraft choices](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-17-playtest-fixes). Menus and deployment fit smaller windows, naval objectives are clearer, and you can choose a reserve aircraft before the first deployment. Windows and Mac downloads are updated.
+**November 19 update:** [Ground vehicle navigation](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-19-ground-navigation). AI tanks and speeders find routes around steep terrain, rocks and parked vehicles. Windows and Mac downloads are updated.
 
 ## Install on Windows
 
