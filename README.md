@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 19 update:** [Ground vehicle navigation](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-19-ground-navigation). AI tanks and speeders find routes around steep terrain, rocks and parked vehicles. Windows and Mac downloads are updated.
+**November 19 update:** [Army rally gathering](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-19-rally-gathering). Infantry, tanks and aircraft trained for shared or nearby rally flags join one army as they arrive. Includes the ground-vehicle navigation fixes. Windows and Mac downloads are updated.
 
 ## Install on Windows
 
