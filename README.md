@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 20 update:** [Combat survival and army accounting](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-combat-survival). AI takes longer to acquire and track targets, cover breaks its aim, and concentrated infantry fire is limited. Bacta stations and occasional health drops heal soldiers; landed aircraft repair beside friendly air droids. Clear reserve, active and loss counts explain exactly what returns to strategy. Includes the army rally and ground-vehicle navigation fixes. Both players must use the same release.
+**November 20 update:** [Clear retreat and capture losses](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-retreat-penalties). Retreat/capture penalties remain in force and now have their own result line, separate from battlefield deaths and reserve attrition. Army totals explain what returns to strategy. Includes the earlier AI survival improvements, bacta healing, aircraft repair, army rally gathering and vehicle navigation fixes. Both players must use the same release.
 
 ## Install on Windows
 
