@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 20 update:** [City wall guns and clear naval sights](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-city-wall-guns). Walled capitals now have four crewable guns beside their inside stair landings. Naval helm and cannon seats use an elevated, unobstructed view with a gold impact marker; your deck stays visible. Includes the remaining-troop retreat fix and earlier combat improvements. **Both players must update.**
+**November 20 update:** [Field engineers and front-gate defenses](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-field-engineering). Each faction's engineer carries a pistol and can build a turret (90 seconds) or plant a siege charge (45 seconds, then a 10-second fuse after leaving). Capital walls have two guns and stairways closer to the front gates. Includes shared-battle construction, ship-deck support and earlier combat fixes. **Both players must update.**
 
 ## Install on Windows
 
@@ -38,6 +38,7 @@ To update on either platform, download the new zip and replace your old copy. Yo
 - **The strategy map:** pick a faction and a difficulty on the start screen. Train workers, build farms, lumber camps and mines, grow your cities, research new ages, and raise armies. **Win by taking the enemy's capital.**
 - **Battles:** when armies meet, choose **Simulate** (the computer settles it) or **Fight it yourself**. In a battle: WASD moves, the mouse aims, left click fires, **E** gets in and out of vehicles, **F1** shows all the controls and **Esc** opens the menu.
 - **Save your game:** on the strategy map, **Esc → Save game**. On the start screen, pick it under **Saved games** to carry on.
+- **Field engineers:** on foot, **F** selects turret or charge; **right click/G** starts or cancels work. Stay still to finish. **E** crews a finished turret; step away from a charge to start its fuse.
 
 ## Play with a friend
 
