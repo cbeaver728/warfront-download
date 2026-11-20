@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 19 update:** [Army rally gathering](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-19-rally-gathering). Infantry, tanks and aircraft trained for shared or nearby rally flags join one army as they arrive. Includes the ground-vehicle navigation fixes. Windows and Mac downloads are updated.
+**November 20 update:** [Combat survival and army accounting](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-combat-survival). AI takes longer to acquire and track targets, cover breaks its aim, and concentrated infantry fire is limited. Bacta stations and occasional health drops heal soldiers; landed aircraft repair beside friendly air droids. Clear reserve, active and loss counts explain exactly what returns to strategy. Includes the army rally and ground-vehicle navigation fixes. Both players must use the same release.
 
 ## Install on Windows
 
@@ -24,6 +24,8 @@ Play alone against the computer, or with a friend on a second laptop.
 2. Open the extracted folder and double-click **WARFRONT.exe**. Keep the folder together: the game needs the files beside it.
 3. If Windows says **"Windows protected your PC"**, click **More info**, then **Run anyway**. (The game isn't signed by a publisher, so Windows doesn't recognize it yet.)
 4. If Windows Firewall asks about WARFRONT, allow it on **Private networks**. You only need that to play with a friend.
+
+If **Smart App Control** blocks the game before it starts, this unsigned build may not launch on that PC. The [release notes](https://github.com/cbeaver728/warfront-download/releases/latest) record the current signing limitation; the source build remains available to the owner.
 
 ## Install on Mac
 
