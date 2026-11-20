@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 20 update:** [Retreat from remaining troops](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-retreat-current-stock). Retreat now returns half of actual living troops plus unused reserves by default, rounded down per unit type. Start with 200, lose 190 and retreat with ten left: **five return**. Only attackers may voluntarily retreat; defenders fight to the end. The result keeps post-battle penalties separate from field deaths. Includes the earlier combat, healing, aircraft repair, rally and navigation improvements. **Both players must use this release.**
+**November 20 update:** [City wall guns and clear naval sights](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-city-wall-guns). Walled capitals now have four crewable guns beside their inside stair landings. Naval helm and cannon seats use an elevated, unobstructed view with a gold impact marker; your deck stays visible. Includes the remaining-troop retreat fix and earlier combat improvements. **Both players must update.**
 
 ## Install on Windows
 
