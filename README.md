@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 20 update:** [Central defenses and remote engineers](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-remote-engineers). Two wall guns and direct stairs now sit between the assault gates, facing the invasion road. Engineers build turrets in 25 seconds or plant charges in 15 seconds, then trigger their own charges manually. Blasts hurt all troops, including allies and yourself. Engineers slowly repair vehicles while aboard, and computer engineers build defenses and plant siege charges. **Both players must update.**
+**November 20 update:** [Late-age Library research](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-library-research). Republic Age unlocks separate purchases for double fortress-wall health and double naval hull health, including carriers. Galactic Age unlocks double healing and repair rates. Technology research can run alongside age advancement, and completed purchases are saved for your nation. Includes the central wall defenses and remote engineer improvements. **Both players must update.**
 
 ## Install on Windows
 
@@ -39,13 +39,14 @@ To update on either platform, download the new zip and replace your old copy. Yo
 - **Battles:** when armies meet, choose **Simulate** (the computer settles it) or **Fight it yourself**. In a battle: WASD moves, the mouse aims, left click fires, **E** gets in and out of vehicles, **F1** shows all the controls and **Esc** opens the menu.
 - **Save your game:** on the strategy map, **Esc → Save game**. On the start screen, pick it under **Saved games** to carry on.
 - **Field engineers:** on foot, **F** selects turret or charge; **right click/G** starts or cancels work. Stay still to finish. **E** crews a finished turret. Once your charge is ready, **right click/G again** detonates it. Keep yourself and friendly troops clear. Board a damaged vehicle to repair it slowly after three seconds without hits.
+- **Library research:** select a finished Library to buy wall or naval armor in Republic Age (90 seconds each), or Advanced Bacta Medicine in Galactic Age (120 seconds). These are optional purchases separate from advancing your age. One technology can research alongside an age; the world keeps running.
 
 ## Play with a friend
 
 Both of you need **the same version** of the game: download the same release.
 
 1. **On the same Wi-Fi:** one player clicks **Host a game** on the start screen and reads out the address it shows. The other types it in and clicks **Join**.
-2. **From different houses:** both install [Tailscale](https://tailscale.com/download) (free) and sign in to the same Tailscale account. Then host and join as above, using the host's **Tailscale address** (it starts with `100.`).
+2. **From different houses:** both install [Tailscale](https://tailscale.com/download) and sign in with your own accounts. The host [invites the friend to their network](https://tailscale.com/docs/features/sharing/how-to/invite-any-user), or [shares the host computer](https://tailscale.com/docs/features/sharing) and the friend accepts. Once Tailscale is connected on both PCs, host and join as above using the host's **Tailscale address** (it starts with `100.`).
 
 You each play your own nation on the same map. The defender chooses first. If both players choose to fight, you play on opposite sides in the same battle. If one chooses to fight, that player faces the computer. The battle is simulated when both players choose computer control.
 
@@ -54,7 +55,7 @@ A two-player game can be saved by the host (**Esc → Save game**) and picked up
 ## If something goes wrong
 
 - **The game won't start, or looks wrong:** update your graphics driver (Windows Update → Advanced options → Optional updates, or your graphics maker's website).
-- **Your friend can't connect:** check the address, that you're both on the same Wi-Fi (not a guest network) or both on Tailscale, and that the host's Windows Firewall allows WARFRONT.
+- **Your friend can't connect:** use the same game release on both PCs, leave the host lobby open, and use the host's `100.x.y.z` address across different Wi-Fis. Separate Tailscale accounts need an accepted network invite or computer share. The host listens on **UDP 24680**. Windows Firewall lists the standalone game as WARFRONT; a source checkout runs under **Godot**, so allow the actual Godot executable instead. A TCP port test does not test this UDP game connection.
 - **To report a problem:** press **Esc → Open log folder** and send the file `godot.log`, with what you were doing.
 
 ---
