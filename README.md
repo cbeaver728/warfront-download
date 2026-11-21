@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 21 update:** [Clearer menus and standalone battles with friends](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-menu-friend-battles). Separate Strategy and Battle cards; choose **Play a friend**, then host or join. The guest chooses a different faction and readies before the host starts. Play arena battles together without an RTS campaign, or build two nations on the strategy map. Saved campaigns and earlier Library research are retained. **Both players must update.**
+**November 21 update:** [Reliable docks, real crews and shared fortress entry](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-correctness). Docks require a usable water berth; older invalid docks safely pause paid ship orders. Land vehicles need real crews, and you can take over the last existing driver without extra reserves. Fortress breaches now open correctly for the guest too. Includes the clearer Strategy/Battle menus, standalone friend battles and Library research. **Both players must update to this same release** (build **2847167**, protocol 8).
 
 ![Friend battle setup](images/friend-battle-menu.png)
 
