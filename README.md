@@ -16,7 +16,9 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 21 update:** [Reliable docks, real crews and shared fortress entry](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-correctness). Docks require a usable water berth; older invalid docks safely pause paid ship orders. Land vehicles need real crews, and you can take over the last existing driver without extra reserves. Fortress breaches now open correctly for the guest too. Includes the clearer Strategy/Battle menus, standalone friend battles and Library research. **Both players must update to this same release** (build **2847167**, protocol 8).
+**November 21 update:** [Engineer turrets, repeat charges and city defenses](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-combat-support). Each engineer life can build one turret; engineers can plant and detonate repeated charges. Infantry rockets fire more slowly, medium/large city walls are stronger, and the guest's B2 wrist-rocket supply display is fixed. Includes the previous docks, real crews, shared fortress entry, friend menus and Library research. **Both players must update to this same release** (build **79b2529**, protocol 9).
+
+Windows package and real multiplayer checks passed locally. This release's **Mac runtime check is pending**: GitHub's billing limit prevented cloud jobs from starting. The Mac archive was exported and structurally checked, but has not been run on a Mac.
 
 ![Friend battle setup](images/friend-battle-menu.png)
 
@@ -41,7 +43,7 @@ To update on either platform, download the new zip and replace your old copy. Yo
 - **Standalone battles:** choose the Battle card and an arena/type. Play the computer using either side button, or select **Play a friend** for a shared battle. Standalone results return to the main menu.
 - **Battles:** when armies meet, choose **Simulate** (the computer settles it) or **Fight it yourself**. In a battle: WASD moves, the mouse aims, left click fires, **E** gets in and out of vehicles, **F1** shows all the controls and **Esc** opens the menu.
 - **Save your game:** on the strategy map, **Esc → Save game**. On the start screen, pick it under **Saved games** to carry on.
-- **Field engineers:** on foot, **F** selects turret or charge; **right click/G** starts or cancels work. Stay still to finish. **E** crews a finished turret. Once your charge is ready, **right click/G again** detonates it. Keep yourself and friendly troops clear. Board a damaged vehicle to repair it slowly after three seconds without hits.
+- **Field engineers:** on foot, **F** selects turret or charge; **right click/G** starts or cancels work. Stay still for 25 seconds to finish a turret or 15 seconds for a charge. Each engineer life can complete one turret, even if that turret is later destroyed; **E** crews it. Once your charge is ready, **right click/G again** detonates it, then you can build another. Keep yourself and friendly troops clear. Board a damaged vehicle to repair it slowly after three seconds without hits.
 - **Library research:** select a finished Library to buy wall or naval armor in Republic Age (90 seconds each), or Advanced Bacta Medicine in Galactic Age (120 seconds). These are optional purchases separate from advancing your age. One technology can research alongside an age; the world keeps running.
 
 ## Play with a friend
