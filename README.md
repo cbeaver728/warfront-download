@@ -16,7 +16,9 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 20 update:** [Late-age Library research](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-20-library-research). Republic Age unlocks separate purchases for double fortress-wall health and double naval hull health, including carriers. Galactic Age unlocks double healing and repair rates. Technology research can run alongside age advancement, and completed purchases are saved for your nation. Includes the central wall defenses and remote engineer improvements. **Both players must update.**
+**November 21 update:** [Clearer menus and standalone battles with friends](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-menu-friend-battles). Separate Strategy and Battle cards; choose **Play a friend**, then host or join. The guest chooses a different faction and readies before the host starts. Play arena battles together without an RTS campaign, or build two nations on the strategy map. Saved campaigns and earlier Library research are retained. **Both players must update.**
+
+![Friend battle setup](images/friend-battle-menu.png)
 
 ## Install on Windows
 
@@ -35,7 +37,8 @@ To update on either platform, download the new zip and replace your old copy. Yo
 
 ## How to play
 
-- **The strategy map:** pick a faction and a difficulty on the start screen. Train workers, build farms, lumber camps and mines, grow your cities, research new ages, and raise armies. **Win by taking the enemy's capital.**
+- **The strategy map:** choose the Strategy card, your faction, map and opponent. Against the computer, choose a difficulty. Train workers, build farms, lumber camps and mines, grow cities, research ages and raise armies. **Win by taking the enemy's capital.**
+- **Standalone battles:** choose the Battle card and an arena/type. Play the computer using either side button, or select **Play a friend** for a shared battle. Standalone results return to the main menu.
 - **Battles:** when armies meet, choose **Simulate** (the computer settles it) or **Fight it yourself**. In a battle: WASD moves, the mouse aims, left click fires, **E** gets in and out of vehicles, **F1** shows all the controls and **Esc** opens the menu.
 - **Save your game:** on the strategy map, **Esc → Save game**. On the start screen, pick it under **Saved games** to carry on.
 - **Field engineers:** on foot, **F** selects turret or charge; **right click/G** starts or cancels work. Stay still to finish. **E** crews a finished turret. Once your charge is ready, **right click/G again** detonates it. Keep yourself and friendly troops clear. Board a damaged vehicle to repair it slowly after three seconds without hits.
@@ -45,12 +48,16 @@ To update on either platform, download the new zip and replace your old copy. Yo
 
 Both of you need **the same version** of the game: download the same release.
 
-1. **On the same Wi-Fi:** one player clicks **Host a game** on the start screen and reads out the address it shows. The other types it in and clicks **Join**.
-2. **From different houses:** both install [Tailscale](https://tailscale.com/download) and sign in with your own accounts. The host [invites the friend to their network](https://tailscale.com/docs/features/sharing/how-to/invite-any-user), or [shares the host computer](https://tailscale.com/docs/features/sharing) and the friend accepts. Once Tailscale is connected on both PCs, host and join as above using the host's **Tailscale address** (it starts with `100.`).
+1. Choose **Strategy game** or **Battle game**, then **Play a friend** under Opponent. Host/join controls appear; computer difficulty is hidden.
+2. The host selects a faction and world map or battle arena/type, then clicks **Host a game**. For battles, the host can attack or defend.
+3. The guest enters the host's address and clicks **Join friend**. Choose an available faction—the host's faction is reserved and grayed out—then click **Ready**.
+4. The host clicks **Start game**. A new strategy match has two human nations; a Battle match deploys directly into the arena.
 
-You each play your own nation on the same map. The defender chooses first. If both players choose to fight, you play on opposite sides in the same battle. If one chooses to fight, that player faces the computer. The battle is simulated when both players choose computer control.
+**Same Wi-Fi:** use the host's Wi-Fi address. **Different houses:** both install [Tailscale](https://tailscale.com/download) and sign in with your own accounts. The host [invites the friend to their network](https://tailscale.com/docs/features/sharing/how-to/invite-any-user), or [shares the host computer](https://tailscale.com/docs/features/sharing) and the friend accepts. Use the host's **Tailscale address** (`100.x.y.z`).
 
-A two-player game can be saved by the host (**Esc → Save game**) and picked up later: the host chooses it under **Saved games** and clicks **Host this game**, and the friend joins as usual.
+In a strategy campaign, you each play your own nation on the same map. The defender chooses first when armies meet. If both choose to fight, you play on opposite sides in the same battle. If one chooses to fight, that player faces the computer. The battle is simulated when both choose computer control.
+
+A two-player strategy game can be saved by the host (**Esc → Save game**) and picked up later: choose it under **Saved games → Host this game**. The guest joins and readies with their original saved faction; saved nations cannot be reassigned. Standalone battles do not create campaign saves.
 
 ## If something goes wrong
 
