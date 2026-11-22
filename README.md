@@ -16,13 +16,15 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 21 update:** [One-life HQ heroes and fishing balance](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-single-life-fishing). The automatic capital Jedi/Sith-equivalent has one life; only its rifle guards respawn. Fishing income is halved to **24 food and 12 credits per minute**, with boat health unchanged. Includes capital defenses, endgame charts, public ages, wonder races and the previous engineer, defense, docks, crews and friend-menu updates. **Both players must update to this same release** (build **3745a20**, protocol 11).
+**November 22 update:** [Choose both battle factions](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-solo-factions). Standalone battles now let you choose **Empire, Rebels or Separatists** against either opposing faction on every arena, including **Forest Moon and Jungle Temple**. Choose your attacking/defending role, then press **START BATTLE**. Includes the previous one-life capital guardian, reduced fishing income, endgame charts and friend-session updates. **Both players must update to this same release** (build **ebfae64**, protocol 11).
 
 Windows package and real multiplayer checks passed locally. This release's **Mac runtime check is pending**: GitHub's billing limit prevented cloud jobs from starting. The Mac archive was exported and structurally checked, but has not been run on a Mac.
 
 ![Endgame resource comparison charts](images/endgame-charts.png)
 
 ![Friend battle setup](images/friend-battle-menu.png)
+
+![Choose Separatists against Empire on Forest Moon](images/solo-battle-menu.png)
 
 ## Install on Windows
 
@@ -42,7 +44,7 @@ To update on either platform, download the new zip and replace your old copy. Yo
 ## How to play
 
 - **The strategy map:** choose the Strategy card, your faction, map and opponent. Against the computer, choose a difficulty. Train workers, build farms, lumber camps and mines, grow cities, research ages and raise armies. **Win by taking the enemy's capital.**
-- **Standalone battles:** choose the Battle card and an arena/type. Play the computer using either side button, or select **Play a friend** for a shared battle. Standalone results return to the main menu.
+- **Standalone battles:** choose **Battle Game**, **Play the computer**, **Your faction** and a different **Computer faction**. Pick an arena/type and **Your role** (attacking/defending), then **START BATTLE**. All three factions work on every arena. Select **Play a friend** for a shared battle. Standalone results return to the main menu.
 - **Battles:** when armies meet, choose **Simulate** (the computer settles it) or **Fight it yourself**. In a battle: WASD moves, the mouse aims, left click fires, **E** gets in and out of vehicles, **F1** shows all the controls and **Esc** opens the menu.
 - **Save your game:** on the strategy map, **Esc → Save game**. On the start screen, pick it under **Saved games** to carry on.
 - **Field engineers:** on foot, **F** selects turret or charge; **right click/G** starts or cancels work. Stay still for 25 seconds to finish a turret or 15 seconds for a charge. Each engineer life can complete one turret, even if that turret is later destroyed; **E** crews it. Once your charge is ready, **right click/G again** detonates it, then you can build another. Keep yourself and friendly troops clear. Board a damaged vehicle to repair it slowly after three seconds without hits.
