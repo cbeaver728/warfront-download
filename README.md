@@ -16,7 +16,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 21 update:** [Capital HQ defenders and match statistics](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-capital-defense-statistics). City HQs now have a Jedi/Sith-equivalent and one or two rifle guards who stay and defend the post, with delayed respawns. Endgame charts compare military units, workers and resource stocks across nations. Includes public enemy ages, deterministic wonder races with cancellation/refunds, and the previous engineer, defense, docks, crews and friend-menu updates. **Both players must update to this same release** (build **94b607a**, protocol 11).
+**November 21 update:** [One-life HQ heroes and fishing balance](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-single-life-fishing). The automatic capital Jedi/Sith-equivalent has one life; only its rifle guards respawn. Fishing income is halved to **24 food and 12 credits per minute**, with boat health unchanged. Includes capital defenses, endgame charts, public ages, wonder races and the previous engineer, defense, docks, crews and friend-menu updates. **Both players must update to this same release** (build **3745a20**, protocol 11).
 
 Windows package and real multiplayer checks passed locally. This release's **Mac runtime check is pending**: GitHub's billing limit prevented cloud jobs from starting. The Mac archive was exported and structurally checked, but has not been run on a Mac.
 
