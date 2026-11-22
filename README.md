@@ -16,9 +16,11 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 21 update:** [Engineer turrets, repeat charges and city defenses](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-combat-support). Each engineer life can build one turret; engineers can plant and detonate repeated charges. Infantry rockets fire more slowly, medium/large city walls are stronger, and the guest's B2 wrist-rocket supply display is fixed. Includes the previous docks, real crews, shared fortress entry, friend menus and Library research. **Both players must update to this same release** (build **79b2529**, protocol 9).
+**November 21 update:** [Capital HQ defenders and match statistics](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-capital-defense-statistics). City HQs now have a Jedi/Sith-equivalent and one or two rifle guards who stay and defend the post, with delayed respawns. Endgame charts compare military units, workers and resource stocks across nations. Includes public enemy ages, deterministic wonder races with cancellation/refunds, and the previous engineer, defense, docks, crews and friend-menu updates. **Both players must update to this same release** (build **94b607a**, protocol 11).
 
 Windows package and real multiplayer checks passed locally. This release's **Mac runtime check is pending**: GitHub's billing limit prevented cloud jobs from starting. The Mac archive was exported and structurally checked, but has not been run on a Mac.
+
+![Endgame resource comparison charts](images/endgame-charts.png)
 
 ![Friend battle setup](images/friend-battle-menu.png)
 
