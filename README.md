@@ -16,9 +16,11 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 22 update:** [Choose both battle factions](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-21-solo-factions). Standalone battles now let you choose **Empire, Rebels or Separatists** against either opposing faction on every arena, including **Forest Moon and Jungle Temple**. Choose your attacking/defending role, then press **START BATTLE**. Includes the previous one-life capital guardian, reduced fishing income, endgame charts and friend-session updates. **Both players must update to this same release** (build **ebfae64**, protocol 11).
+**November 24 update:** [City routes and guardian cards](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-24-city-routes). Infantry and followers use city stairs, entrances and wall breaches; circular HQ landing traps are repaired. The defending guardian has a card beside the soldier roster, and final takeover can use surviving HQ rifle guards. City walls are **50% stronger**. Guardians still have one life. Includes the earlier three-faction battle selection and strategy updates. **Both players must update to this same release** (build **f1224e3**, protocol 12).
 
-Windows package and real multiplayer checks passed locally. This release's **Mac runtime check is pending**: GitHub's billing limit prevented cloud jobs from starting. The Mac archive was exported and structurally checked, but has not been run on a Mac.
+The freshly extracted Windows package passed guardian, navigation, HQ capture/hold and real two-player takeover tests. A normal-speed windowed Iris Xe test averaged **58.9 FPS** (42.1 FPS 1% low). Ground vehicles can still become congested near city terraces; that remains a follow-up. The Mac archive was exported and structurally checked, but **has not been run on a Mac**. Cloud jobs could not start, so these are local validation results.
+
+![Choose the defending capital guardian beside the soldier roster](images/capital-guardian.png)
 
 ![Endgame resource comparison charts](images/endgame-charts.png)
 
