@@ -22,6 +22,8 @@ Play alone against the computer, or with a friend on a second laptop.
 
 **Sharing with friends:** online matches support **two human players** (host plus one guest). Both should extract and launch this same release. Use the stronger PC as host; try Low graphics on integrated GPUs. For different houses, [check that Tailscale establishes a direct connection](https://tailscale.com/docs/reference/connection-types)—a relayed connection can add latency. Avoid background downloads while playing.
 
+**Mac is up to date:** the Mac download has the same **f1224e3 gameplay, maps, rules, assets, sounds and music as Windows**, including the latest city and guardian changes. Apple Silicon and Intel versions are both included, with their runtimes. November24 content checks confirm parity; actual Mac launch/performance and a Mac-to-Windows match remain unverified. Mac players do not need Godot or a .NET SDK.
+
 ![Choose the defending capital guardian beside the soldier roster](images/capital-guardian.png)
 
 ![Endgame resource comparison charts](images/endgame-charts.png)
