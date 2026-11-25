@@ -16,7 +16,9 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 25 update** · [Siege recovery and wall access](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-25-siege-recovery). Ground crews back out and replan after five seconds of little movement. City walls gain another 50% HP. Six inside stairs run along the wall, the front stairs have solid landings, and the gallery meets the wall. Riflemen track more firmly, scoped snipers can break away with a smaller mouse movement, and rocket troops can lock their aim onto enemy aircraft and ships. Both online players should update to **bc95360**.
+**November 25 gallery update** · [Narrow city wall gallery](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-25-narrow-wall). The city wall walk is about 3.2 m wide, enough for three and a half soldiers across. The stairs and front guns keep their positions. Defenders can fire at approaching troops from the front and both flanks. Both online players should update to **d1d4d3c**.
+
+**Earlier November 25 update** · [Siege recovery and wall access](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-25-siege-recovery). Ground crews back out and replan after five seconds of little movement. City walls gain another 50% HP. Six inside stairs run along the wall and the front stairs have solid landings. Riflemen track more firmly, scoped snipers can break away with a smaller mouse movement, and rocket troops can lock their aim onto enemy aircraft and ships.
 
 **November 24 update:** [City defense and sniper zoom](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-24-city-defense). The capital guardian pursues enemies through HQ hallways and returns when clear. Eight stairways and a connected wall gallery give defenders flank access. Soldiers can shoot over nearby low cover when they can see the target, and sniper aim assist releases cleanly without grabbing vehicles. **Regular / City defender** buttons share one hero model; the roster fits without sideways scrolling. Sniper **Z cycles medium → far → normal**, with the faster, more precise long rifle. Includes the previous city navigation, **50% stronger walls**, one-life guardians, three-faction battles and strategy updates. That release was build **040a036** (protocol 12).
 
@@ -24,7 +26,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 **Sharing with friends:** online matches support **two human players** (host plus one guest). Both should extract and launch this same release. Use the stronger PC as host; try Low graphics on integrated GPUs. For different houses, [check that Tailscale establishes a direct connection](https://tailscale.com/docs/reference/connection-types)—a relayed connection can add latency. Avoid background downloads while playing.
 
-**Mac is up to date.** The Windows and Mac downloads share build **bc95360**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
+**Mac is up to date.** The Windows and Mac downloads share build **d1d4d3c**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
 
 ![Choose Regular or City defender underneath the matching hero](images/capital-guardian.png)
 
