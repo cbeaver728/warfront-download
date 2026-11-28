@@ -16,7 +16,9 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 27 Kyber update.** New strategy campaigns have about 50% more Kyber locations across Continents, Islands, River Valley and Highlands. Both online players should update to **94841eb**. [More Kyber deposits on new maps](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-kyber-density)
+**November 27 rooftop update.** In Capital Assault, use L to preview a clear rooftop and Space to land. E climbs out beside the fighter after touchdown. Both online players should update to **e185cab**. [Land and climb out on rooftops](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-rooftop-landing)
+
+**November 27 Kyber update.** New strategy campaigns have about 50% more Kyber locations across Continents, Islands, River Valley and Highlands. [More Kyber deposits on new maps](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-kyber-density)
 
 **November 27 capital and commerce update.** Infantry can climb all three HQ stairways in every capital. Well-stocked city defenders can deploy up to three more troops. Worker gathering caps rise from 150 to 300 per resource per minute as you advance. In Galactic Age, research Commerce Expansion at a Market to reach 350. [Capital stairs, city garrisons and commerce](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-capital-commerce)
 
@@ -32,7 +34,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 **Sharing with friends:** online matches support **two human players** (host plus one guest). Both should extract and launch this same release. Use the stronger PC as host; try Low graphics on integrated GPUs. For different houses, [check that Tailscale establishes a direct connection](https://tailscale.com/docs/reference/connection-types)—a relayed connection can add latency. Avoid background downloads while playing.
 
-**Mac is up to date.** The Windows and Mac downloads share build **94841eb**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
+**Mac is up to date.** The Windows and Mac downloads share build **e185cab**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
 
 ![Choose Regular or City defender underneath the matching hero](images/capital-guardian.png)
 
