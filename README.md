@@ -16,7 +16,9 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 27 army deployment update.** Played battles use the size and composition of the armies you send from strategy. An all-Jedi army can fill every infantry spot, and tank-heavy forces can field more tanks within the existing limits. Both online players should use build **d8cd3e6**. [Army composition in battle](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-army-composition)
+**November 28 battle co-op update.** Play on the same team as a friend against a computer faction. Pick **Battle Game → Play a friend → Same team vs computer**. Both players should use build **123c2b9**. [Two-player co-op](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-28-battle-coop)
+
+**November 27 army deployment update.** Played battles use the size and composition of the armies you send from strategy. An all-Jedi army can fill every infantry spot, and tank-heavy forces can field more tanks within the existing limits. [Army composition in battle](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-army-composition)
 
 **November 27 rooftop update.** In Capital Assault, use L to preview a clear rooftop and Space to land. E climbs out beside the fighter after touchdown. [Land and climb out on rooftops](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-rooftop-landing)
 
@@ -36,7 +38,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 **Sharing with friends:** online matches support **two human players** (host plus one guest). Both should extract and launch this same release. Use the stronger PC as host; try Low graphics on integrated GPUs. For different houses, [check that Tailscale establishes a direct connection](https://tailscale.com/docs/reference/connection-types)—a relayed connection can add latency. Avoid background downloads while playing.
 
-**Mac is up to date.** The Windows and Mac downloads share build **d8cd3e6**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
+**Mac is up to date.** The Windows and Mac downloads share build **123c2b9**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
 
 ![Choose Regular or City defender underneath the matching hero](images/capital-guardian.png)
 
@@ -75,8 +77,8 @@ To update on either platform, download the new zip and replace your old copy. Yo
 Both of you need **the same version** of the game: download the same release.
 
 1. Choose **Strategy game** or **Battle game**, then **Play a friend** under Opponent. Host/join controls appear; computer difficulty is hidden.
-2. The host selects a faction and world map or battle arena/type, then clicks **Host a game**. For battles, the host can attack or defend.
-3. The guest enters the host's address and clicks **Join friend**. Choose an available faction—the host's faction is reserved and grayed out—then click **Ready**.
+2. For a strategy game, the host chooses a faction and world map. For battles, choose **Same team vs computer** or **Opposing teams** under **Team setup**, then choose the arena, faction and attacking or defending role. In co-op, the host also chooses the computer faction. Click **Host a game**.
+3. The guest enters the host's address and clicks **Join friend**. In co-op, press **Ready** for the host's team. In other modes, pick an available faction and press **Ready**.
 4. The host clicks **Start game**. A new strategy match has two human nations; a Battle match deploys directly into the arena.
 
 **Same Wi-Fi:** use the host's Wi-Fi address. **Different houses:** both install [Tailscale](https://tailscale.com/download) and sign in with your own accounts. The host [invites the friend to their network](https://tailscale.com/docs/features/sharing/how-to/invite-any-user), or [shares the host computer](https://tailscale.com/docs/features/sharing) and the friend accepts. Use the host's **Tailscale address** (`100.x.y.z`).
