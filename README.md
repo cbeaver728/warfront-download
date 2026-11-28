@@ -16,7 +16,9 @@ Play alone against the computer, or with a friend on a second laptop.
 
 [Latest release notes](https://github.com/cbeaver728/warfront-download/releases/latest) · [All releases](https://github.com/cbeaver728/warfront-download/releases)
 
-**November 27 rooftop update.** In Capital Assault, use L to preview a clear rooftop and Space to land. E climbs out beside the fighter after touchdown. Both online players should update to **e185cab**. [Land and climb out on rooftops](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-rooftop-landing)
+**November 27 army deployment update.** Played battles use the size and composition of the armies you send from strategy. An all-Jedi army can fill every infantry spot, and tank-heavy forces can field more tanks within the existing limits. Both online players should use build **d8cd3e6**. [Army composition in battle](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-army-composition)
+
+**November 27 rooftop update.** In Capital Assault, use L to preview a clear rooftop and Space to land. E climbs out beside the fighter after touchdown. [Land and climb out on rooftops](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-rooftop-landing)
 
 **November 27 Kyber update.** New strategy campaigns have about 50% more Kyber locations across Continents, Islands, River Valley and Highlands. [More Kyber deposits on new maps](https://github.com/cbeaver728/warfront-download/releases/tag/warfront-2026-11-27-kyber-density)
 
@@ -34,7 +36,7 @@ Play alone against the computer, or with a friend on a second laptop.
 
 **Sharing with friends:** online matches support **two human players** (host plus one guest). Both should extract and launch this same release. Use the stronger PC as host; try Low graphics on integrated GPUs. For different houses, [check that Tailscale establishes a direct connection](https://tailscale.com/docs/reference/connection-types)—a relayed connection can add latency. Avoid background downloads while playing.
 
-**Mac is up to date.** The Windows and Mac downloads share build **e185cab**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
+**Mac is up to date.** The Windows and Mac downloads share build **d8cd3e6**. All 22 content checks passed, including the Apple Silicon and Intel game files and runtimes. Runtime testing took place on Windows. The Mac download includes everything needed to launch the game.
 
 ![Choose Regular or City defender underneath the matching hero](images/capital-guardian.png)
 
